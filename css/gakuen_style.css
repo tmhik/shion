@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.table-gakuen{
+  display: table;
+  text-align: center;
+}
+.table-cell-gakuen {
+  	display: table-cell;
+  	vertical-align: middle;
+}
+.table-cell-gakuen.message:nth-child(1){
+	width: 30%;
+}
+.table-cell-gakuen.message:nth-child(2){
+	width: 70%;
+	text-align: left;
+}
+
+.table-cell-gakuen.concept:nth-child(1){
+	width: 40%;
+}
+.table-cell-gakuen.concept:nth-child(2){
+	width: 60%;
+	text-align: left;
+}

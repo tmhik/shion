@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* トップページスタッフメッセージ
+*****************************************************/
+.post h2 {
+	position: relative;
+	left: 10%;
+}
+.post table {
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
